@@ -19,13 +19,6 @@
   font-size: 20px;
 }
 
-.bannerText h2{
-  text-align: center;
-  color: #fff;
-  font-size: 50px;
-  margin-top: 20%;
-}
-
 .animationArea{
   display: flex;
 }
@@ -120,6 +113,26 @@
   pointer-events: none;
   mix-blend-mode: multiply;
   z-index: 10;
+}
+
+.slideIn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: bottom;
+}
+
+.slideOut {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: top;
 }
 
 @keyframes animate {
